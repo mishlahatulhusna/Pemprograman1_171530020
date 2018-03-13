@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            th, td {
+                text-align: left;
+                padding: 8px;
+            } 
+            
+            tr:nth-child(even) {
+                background-color: #f2f2f2
+            }
+
+            th {
+                background-color: #4CAF50;
+                color: white;
+            }
+        </style>
+    </head>
+
+
+    <h2>Colored table header</h2>
+
+    <table border="2">
+        <caption> jadwal kuliah </caption>
+        <tr>
+            <th colspan = "2"> hari / jam </th>
+            <th> mata kuliah </th>
+            <th> kelas </th>
+            <th>ruang </th> 
+        </tr>
+        <tr>
+            <td>rabu</td>
+            <td>08.00</td>
+            <td>proyek 2</td>
+            <td>TI-15-1</td>
+            <td>lab. RPL</td>
+        </tr>
+        <tr>
+            <td> kamis </td>
+            <td> 13.00 </td>
+            <td rowspan=3> pemograman 2 </td>
+            <td> TI-15-1 </td>
+            <td> GI.lab1.TI </td>
+        </tr>
+        <tr>
+            <td> jumat </td>
+            <td> 08.00 </td>
+            <td> TI-15-1 </td>
+            <td> G1-R1 </td>
+        </tr>
+        <tr>
+            <td> jumat </td>
+            <td> 17.00 </td>
+            <td> TI-15-2 </td>
+            <td> G1-R1 </td>
+        </tr>
+        <tr> 
+            <td>senin</td>
+            <td>08.00</td>
+            <td>proyek 2</td>
+            <td>G1-R1 </td>
+    </tr>
+    </table>
+
+</body>
+</html>
